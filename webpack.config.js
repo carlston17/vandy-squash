@@ -6,7 +6,6 @@ var autoprefixer = require('autoprefixer');
 var postcssConfig = require('./postcss.json');
 var WebpackShellPlugin = require('webpack-shell-plugin');
 var BrowserSyncPlugin = require('browser-sync-webpack-plugin');
-var browserSyncConfig = require('./bs-config');
 var CleanCSSLoader = require('clean-css-loader');
 
 var env = process.env.NODE_ENV || 'development';
